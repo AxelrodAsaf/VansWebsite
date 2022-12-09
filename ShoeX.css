@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    background-image: url("./assets/General/background.png");
+    background-size: cover;
+    /* background-color: #303030; */
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+}
+
+.Navbar {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    border-radius: 0px 0px 50px 50px;
+    background-color: darkslategray;
+    top: 0;
+    position: sticky;
+    text-size-adjust: auto;
+}
+    .Navitem {
+        color: whitesmoke;
+        font-size: 3.5vw;
+        text-decoration: none;
+        transition: 400ms;
+    }
+    .carlogo {
+        width: 25vw;
+        height: auto;
+    }
+    .Navbar:hover>.Navitem {
+        opacity: 0.1;
+    }
+    .Navbar:hover>.Navitem:hover {
+        opacity: 1;
+    }
+
+#DisplayContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    .DisplayPic {
+        display: flex;
+        justify-content: center;
+    }
+        .ShoePic {
+            width: 30vw;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-text-stroke: 1.5px;        
+        }
+        .DisplayText {
+            padding: 3vw;
+        }
+
+.OtherShoes {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .OtherPics {
+        width: 11vw;
+        height: 11vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .OtherTable {
+        justify-content: center;
+        align-items: center;
+        padding: 3vw;
+    }
+
+
+
+
+    #Shop {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .ShopPic {
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+#Footer {
+    margin: 0;
+    background-color: darkslategray;
+    border-radius: 50px 50px 0px 0px;
+    width: 100vw;
+    text-align: center;
+    bottom: 0;
+}
+    .pagelinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .socialmedia {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialtext {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20px;
+        margin-bottom: -15px;
+    }
+    .socialpics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialpadding {
+        padding: 5px;
+    }
+    hr {
+        background-color: black;
+        height: 1px;
+        width: 65vw;
+        opacity: 25%;
+    }
+@media screen and (max-width: 768px) {
+    #DisplayContent {
+        flex-direction: column;
+    }
+
+    .DisplayPic {
+        justify-self: center;
+        align-self: center;
+    }
+}
