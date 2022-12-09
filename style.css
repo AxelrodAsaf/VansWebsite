@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+    body {
+        background-image: url("./assets/General/background.png");
+        background-size: cover;
+        /* background-color: #303030; */
+        font-family: 'Anton', sans-serif;
+        color: whitesmoke;
+    }
+
+
+.Navbar {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    border-radius: 0px 0px 50px 50px;
+    background-color: darkslategray;
+    top: 0;
+    position: sticky;
+    text-size-adjust: auto;
+}
+    .Navitem {
+        color: whitesmoke;
+        font-size: 3.5vw;
+        text-decoration: none;
+        transition: 400ms;
+    }
+    .carlogo {
+        width: 25vw;
+        height: auto;
+    }
+    .Navbar:hover>.Navitem {
+        opacity: 0.1;
+    }
+    .Navbar:hover>.Navitem:hover {
+        opacity: 1;
+    }
+
+
+#Hero {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+    .HeroVid {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    #HeroText {
+        color: whitesmoke;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        align-self: center;
+        justify-self: center;
+        font-size: 5vh;
+        text-align: center;
+    }
+
+
+#Featured {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    .Feathead {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    .Featuredpics {
+        display: flex;
+    }
+
+#Shop {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    .ShopHead {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    .ShopPic {
+        display: flex;
+    }
+
+#Footer {
+    margin: 0;
+    background-color: darkslategray;
+    border-radius: 50px 50px 0px 0px;
+    width: 100vw;
+    text-align: center;
+    bottom: 0;
+}
+    .pagelinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .socialmedia {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialtext {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20px;
+        margin-bottom: -15px;
+    }
+    .socialpics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialpadding {
+        padding: 5px;
+    }
+    hr {
+        background-color: black;
+        height: 1px;
+        width: 65vw;
+        opacity: 25%;
+    }
+@media screen and (max-width: 768px) {
+    #Hero {
+        flex-direction: column;
+    }
+
+    .HeroVid {
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+
+
+
+
+/* Communal qualities of content */
+.Featpic {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-stroke: 1.5px;
+}
+.ShopPic {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-stroke: 1.5px;
+}
+/* Individual qualities of content */
+.FeatpicContent1:hover::after {
+    content: "Blue Low Shoes";
+    color: black;
+    -webkit-text-fill-color: teal;
+}
+.FeatpicContent2:hover::after {
+    color: black;
+    content: "Blue Mid Shoes";
+    -webkit-text-fill-color: teal;
+}
+.FeatpicContent3:hover::after {
+    color: black;
+    content: "Blue High Shoes";
+    -webkit-text-fill-color: teal;
+}
+.FeatpicContent4:hover::after {
+    color: black;
+    content: "Blue Checkered Shoes";
+    -webkit-text-fill-color: teal;
+}
+.ShopPicContent5:hover::after {
+    color: darkgray;
+    content: "Black High Shoes";
+    -webkit-text-fill-color: black;
+}
+.ShopPicContent6:hover::after {
+    color: darkgray;
+    content: "Black Shoes";
+    -webkit-text-fill-color: black;
+}
+.ShopPicContent7:hover::after {
+    color: black;
+    content: "Camouflage Shoes";
+    -webkit-text-fill-color: olive;
+}
+.ShopPicContent8:hover::after {
+    color: black;
+    content: "Red Shoes";
+    -webkit-text-fill-color: red;
+}
