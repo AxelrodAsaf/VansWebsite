@@ -8,6 +8,7 @@ html {
         background-size: cover;
         font-family: 'Anton', sans-serif;
         color: whitesmoke;
+        text-align: center;
     }
 
 
@@ -124,6 +125,7 @@ html {
         justify-content: center;
         margin-top: -20px;
         margin-bottom: -15px;
+        font-size: 1.5vw;
     }
     .socialpics {
         display: flex;
@@ -145,7 +147,7 @@ html {
         font-size: 10vw;
     }
     #Hero {
-        top: -10vh;
+        padding-top: 11vh;
     }
 }
 
@@ -168,6 +170,7 @@ a:active {    text-decoration: none;}
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-text-stroke: 1.5px;
+    font-size: 3vh;
 }
 .ShopPic {
     width: 30vw;
@@ -179,6 +182,12 @@ a:active {    text-decoration: none;}
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-text-stroke: 1.5px;
+    font-size: 3vh;
+}
+
+.Featpic:hover {
+    background-color: white;
+    opacity: 90%
 }
 /* Individual qualities of content */
 .FeatpicContent1:hover::after {
