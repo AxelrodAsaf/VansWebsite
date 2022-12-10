@@ -162,7 +162,7 @@ a:active {    text-decoration: none;}
 /* Communal qualities of content */
 .Featpic {
     width: 30vw;
-    height: 30vh;
+    height: 30vw;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -174,7 +174,7 @@ a:active {    text-decoration: none;}
 }
 .ShopPic {
     width: 30vw;
-    height: 30vh;
+    height: 30vw;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -188,6 +188,10 @@ a:active {    text-decoration: none;}
 .Featpic:hover {
     background-color: white;
     opacity: 90%
+}
+.ShopPic:hover {
+    background-color: white;
+    opacity: 90%;
 }
 /* Individual qualities of content */
 .FeatpicContent1:hover::after {
